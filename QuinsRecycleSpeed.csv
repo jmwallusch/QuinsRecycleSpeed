@@ -1,0 +1,432 @@
+Min;Sec;Zone;Pass;Start;End;Protection;Contested;Speed;SF;Outcome;Opp
+0;17;Opp10-22;0;26.697;29.345;2;none;2.648;DC;ground pass;WAS
+0;23;Opp10-22;0;32.833;35.65;2;attempt;2.817;DC;ground pass;WAS
+2;54;Own22-10;1;3.143;10.176;5;none;7.033;DC;box-kick;WAS
+3;39;Own10-50;2;10.555;12.275;3;none;1.72;DC;ground pass;WAS
+4;56;Own22;0;27.351;33.287;3;none;5.936;DC;ground pass;WAS
+5;7;Own22;1;;;2;attempt;;;WAS penalty;WAS
+5;56;Own10-50;0;26.959;33.991;3;none;7.032;DC;ground pass;WAS
+6;6;Own10-50;1;36.895;45.655;4;attempt;8.76;DC;box-kick;WAS
+10;7;Own10-50;0;44.654;49.35;3;attempt;4.696;DC;ground pass;WAS
+10;14;Own10-50;1;51.932;59.228;3;none;7.296;DC;box-kick;WAS
+11;3;Own10-50;1;40.973;46.347;2;attempt;5.374;DC;ground pass;WAS
+11;12;Own10-50;1;49.39;51.766;2;none;2.376;DC;pick-and-go;WAS
+11;16;Own10-50;0;54.06;57.356;2;attempt;3.296;Tom Lawday;ground pass;WAS
+13;28;Own22-10;0;19.774;21.533;2;none;1.759;DC;ground pass;WAS
+13;33;Own22-10;1;24.193;31.698;4;attempt;7.505;DC;box-kick;WAS
+19;1;Own22;1;;;2;jackaled;;;jackaled;WAS
+20;39;Opp22;2;37.724;44.245;3;attempt;6.521;Joe Marchant;pick-and-go;WAS
+20;49;Opp22;0;47.482;53.61;3;attempt;6.128;DC;ground pass;WAS
+20;58;Opp22;1;56.662;60.445;2;attempt;3.783;DC;ground pass;WAS
+21;12;Opp22;1;10.763;13.164;3;none;2.401;DC;pick-and-go;WAS
+22;14;Opp22;0;12.453;13.893;1;attempt;1.44;Stephan Lewies;pick-and-go;WAS
+22;17;Opp22;0;15.552;18.08;1;attempt;2.528;DC;ground pass;WAS
+22;24;Opp22;1;22.615;23.135;2;attempt;0.52;DC;pick-and-go;WAS
+22;35;Opp22;1;33.623;36.343;2;attempt;2.72;DC;ground pass;WAS
+22;39;Opp22;1;37.772;41.812;1;attempt;4.04;DC;pick-and-go;WAS
+22;48;Opp22;1;46.78;50.54;2;attempt;3.76;DC;ground pass;WAS
+22;55;Opp22;1;53.828;56.107;2;attempt;2.279;DC;ground pass;WAS
+31;8;Opp50-10;3;15.361;17.449;1;none;2.088;DC;ground pass;WAS
+31;14;Opp50-10;1;21.233;23.737;2;none;2.504;DC;ground pass;WAS
+40;9;Own22;1;47.395;52.154;5;disruption;4.759;DC;box-kick;WAS
+42;39;Own22;0;17.43;25.238;4;attempt;7.808;DC;ground pass;WAS
+42;49;Own22;1;27.724;40.484;5;disruption;12.76;DC;box-kick;WAS
+50;5;Opp22;3;1.871;6.574;3;attempt;4.703;DC;ground pass;WAS
+50;14;Opp22;1;10.029;14.125;2;attempt;4.096;DC;ground pass;WAS
+53;4;Own22-10;0;16.046;17.806;3;none;1.76;Jack Kenningham;pick-and-go;WAS
+53;8;Own22-10;0;20.78;28.604;3;disruption;7.824;DC;ground pass;WAS
+53;19;Own22-10;1;30.929;47.083;4;disruption;16.154;DC;box-kick;WAS
+54;12;Own10-50;0;24.003;29.748;3;attempt;;;WAS penalty;WAS
+58;44;Opp10-22;0;42.782;49.118;5;none;6.336;DC;ground pass;WAS
+60;4;Opp22;1;11.1;13.732;2;attempt;2.632;DC;ground pass;WAS
+60;10;Opp22;1;17.28;18.44;1;disruption;1.16;Stephan Lewies;pick-and-go;WAS
+60;13;Opp22;0;20.181;22.621;2;attempt;2.44;DC;ground pass;WAS
+60;18;Opp22;1;25.374;29.646;2;attempt;4.272;DC;ground pass;WAS
+62;18;Own22-10;0;56.554;61.096;4;none;4.542;DC;ground pass;WAS
+62;25;Own22-10;1;3.734;11.663;4;none;7.929;DC;box-kick;WAS
+66;31;Opp10-22;0;9.604;13.644;2;disruption;4.04;Joe Marchant;ground pass;WAS
+66;40;Opp10-22;1;18.651;20.371;2;none;1.72;Joe Marchant;ground pass;WAS
+66;45;Opp10-22;1;24.352;26.152;2;none;1.8;DC;ground pass;WAS
+66;53;Opp10-22;3;31.866;34.866;1;none;3;DC;ground pass;WAS
+67;1;Opp10-22;1;39.416;41.36;2;none;1.944;DC;ground pass;WAS
+67;11;Opp10-22;3;50.065;51.641;2;none;1.576;DC;ground pass;WAS
+67;18;Opp10-22;2;56.869;61.565;2;attempt;4.696;DC;ground pass;WAS
+68;12;Own22-10;0;48.11;53.07;3;none;4.96;DC;ground pass;WAS
+68;20;Own22-10;1;55.615;78.766;5;disruption;23.151;DC;box-kick;WAS
+69;34;Own10-50;0;;;4;attempt;;;HAR penalty;WAS
+72;47;Own22-10;0;47.721;50.962;2;none;3.241;ML;ground pass;WAS
+72;54;Own22-10;1;55.03;57.31;2;attempt;2.28;ML;ground pass;WAS
+73;3;Own22-10;2;3.668;5.588;3;none;1.92;ML;ground pass;WAS
+73;15;Opp10-22;4;16.064;18.184;3;disruption;2.12;Paul Lasike;pick-and-go;WAS
+73;20;Opp10-22;0;;;2;attempt;;;jackaled;WAS
+75;9;Own22-10;0;;;3;none;;;WAS penalty;WAS
+75;57;Opp10-22;2;21.226;23.106;2;none;1.88;ML;ground pass;WAS
+76;7;Opp22;3;31.483;33.251;3;none;1.768;ML;ground pass;WAS
+76;13;Opp10-22;2;37.41;39.243;2;none;1.833;ML;ground pass;WAS
+73;20;Opp10-22;2;43.69;47.177;2;none;3.487;ML;ground pass;WAS
+76;26;Opp22;1;49.83;53.573;2;none;3.743;ML;ground pass;WAS
+76;32;Opp10-22;1;56.454;58.094;2;none;1.64;ML;ground pass;WAS
+77;41;Own22-10;0;58.868;62.908;3;attempt;4.04;ML;ground pass;WAS
+77;49;Own22-10;1;6.835;8.49;1;none;1.655;ML;ground pass;WAS
+79;1;Opp22;3;18.792;21.032;2;none;2.24;ML;ground pass;WAS
+79;6;Opp22;1;23.64;27;2;none;3.36;ML;ground pass;WAS
+79;12;Opp22;1;29.945;32.025;2;none;2.08;ML;ground pass;WAS
+79;17;Opp22;1;34.763;38.123;2;attempt;3.36;ML;ground pass;WAS
+79;23;Opp22;1;41.045;44.605;2;attempt;3.56;ML;ground pass;WAS
+79;28;Opp22;1;46.309;48.029;1;attempt;1.72;ML;ground pass;WAS
+79;34;Opp22;1;51.454;59.094;3;attempt;7.64;ML;ground pass;WAS
+79;44;Opp22;1;1.415;3.735;2;none;2.32;ML;ground pass;WAS
+79;49;Opp22;1;6.52;8.4;2;none;1.88;ML;ground pass;WAS
+0;8;Own22;1;0.137;3.936;3;attempt;3.799;DC;box-kick;LEI
+1;41;Opp10-22;3;32.842;34.882;3;none;2.04;DC;ground pass;LEI
+1;49;Opp10-22;2;;;2;attempt;;;HAR penalty;LEI
+5;36;Own22-10;1;28.356;30.976;2;attempt;2.62;DC;box-kick;LEI
+7;18;Opp50-10;1;;;2;attempt;;;HAR penalty;LEI
+11;26;Opp50-10;0;17.928;21.036;3;none;3.108;DC;ground pass;LEI
+11;34;Opp50-10;3;25.503;27.543;1;none;2.04;DC;ground pass;LEI
+11;41;Opp10-22;2;32.977;35.697;2;attempt;2.72;DC;ground pass;LEI
+11;48;Opp10-22;2;39.676;40.416;1;none;0.74;DC;ground pass;LEI
+11;52;Opp10-22;2;44.087;46.467;2;attempt;2.38;DC;ground pass;LEI
+14;53;Own22-10;3;;;0;jackaled;;;jackaled;LEI
+15;13;Own22-10;1;;;2;attempt;;;HAR penalty;LEI
+16;23;Own10-50;0;9.729;12.709;4;none;2.98;DC;ground pass;LEI
+16;29;Own10-50;1;16.187;18.187;2;none;2;DC;ground pass;LEI
+21;2;Opp22;4;48.367;51.967;2;none;3.6;DC;ground pass;LEI
+21;9;Opp22;2;56.232;57.632;3;attempt;1.4;DC;ground pass;LEI
+21;15;Opp22;1;1.448;4.168;3;attempt;2.72;DC;ground pass;LEI
+21;22;Opp22;2;9.148;14.288;3;none;5.14;DC;ground pass;LEI
+21;31;Opp22;1;17.59;19.09;2;attempt;1.5;DC;ground pass;LEI
+21;36;Opp22;1;22.503;24.991;2;attempt;2.488;DC;ground pass;LEI
+21;42;Opp22;2;;;1;jackaled;;;jackaled;LEI
+24;29;Own22;0;41.752;49.57;4;attempt;7.818;DC;box-kick;LEI
+27;14;Own22-10;0;36.089;37.989;3;none;1.9;Matt Symons;ground pass;LEI
+27;22;Own10-50;1;43.548;47.908;3;none;4.36;Marcus Smith;ground pass;LEI
+27;29;Own22-10;1;51.177;61.403;4;attempt;10.226;DC;box-kick;LEI
+28;0;Own10-50;2;22.214;24.154;1;none;1.94;DC;ground pass;LEI
+28;49;Own22;0;0.008;5.068;3;attempt;5.06;Joe Marler;ground pass;LEI
+28;58;Own22-10;1;8.796;14.496;2;none;5.7;DC;ground pass;LEI
+29;6;Own22;1;16.933;24.082;4;attempt;7.149;DC;ground pass;LEI
+29;22;Own22;3;33.077;40.617;3;disruption;7.54;DC;ground pass;LEI
+29;34;Own22;1;;;3;attempt;;;HAR penalty;LEI
+32;22;Own10-50;0;;;3;attempt;;;LEI penalty;LEI
+33;59;Opp22;0;56.96;62.78;2;attempt;5.82;Scott Baldwin;ground pass;LEI
+34;9;Opp22;1;;;4;none;;;knockon on floor;LEI
+36;11;Opp10-22;1;1.394;2.494;3;none;1.1;DC;ground pass;LEI
+37;27;Own22-10;0;17.488;23.748;4;none;6.26;Joe Marler;pick-and-go;LEI
+37;36;Own22-10;0;25.869;33.009;4;none;7.14;DC;box-kick;LEI
+41;59;Own22;0;34.701;42.757;3;disruption;8.056;Scott Baldwin;ground pass;LEI
+42;10;Own22;1;;;3;attempt;;;HAR penalty;LEI
+44;20;Opp50-10;0;55.68;58.755;2;attempt;3.075;DC;ground pass;LEI
+44;27;Opp50-10;2;2.675;4.555;2;none;1.88;DC;ground pass;LEI
+44;34;Opp50-10;1;9.284;11.488;1;none;2.204;DC;ground pass;LEI
+44;39;Opp50-10;1;14.839;16.867;2;none;2.028;DC;ground pass;LEI
+48;10;Opp50-10;3;56.805;59.225;2;attempt;2.42;DC;ground pass;LEI
+48;15;Opp50-10;2;2.69;5.089;2;none;2.399;DC;ground pass;LEI
+48;21;Opp10-22;2;8.557;12.957;3;attempt;4.4;DC;ground pass;LEI
+48;30;Opp10-22;2;17.706;20.146;2;attempt;2.44;DC;ground pass;LEI
+48;38;Opp10-22;1;24.857;26.564;2;none;1.707;DC;ground pass;LEI
+48;44;Opp10-22;1;30.928;32.656;2;none;1.728;DC;ground pass;LEI
+48;49;Opp10-22;2;36.488;38.892;2;none;2.404;DC;ground pass;LEI
+48;59;Opp10-22;1;45.854;48.946;2;none;3.092;DC;ground pass;LEI
+49;5;Opp10-22;2;;;2;attempt;;;HAR penalty;LEI
+51;26;Opp10-22;2;12.748;14.868;2;none;2.12;DC;ground pass;LEI
+51;37;Opp22;3;23.951;26.771;4;none;2.82;DC;ground pass;LEI
+51;43;Opp22;2;29.903;31.874;1;none;1.971;DC;ground pass;LEI
+51;48;Opp22;1;35.108;36.968;3;none;1.86;DC;ground pass;LEI
+51;53;Opp22;1;40.28;42.74;4;none;2.46;DC;ground pass;LEI
+51;58;Opp22;1;45.384;47.144;1;none;1.76;Stephan Lewies;pick-and-go;LEI
+52;2;Opp22;0;48.973;51.285;1;none;2.312;James Chisolm;pick-and-go;LEI
+52;6;Opp22;0;53.466;56.958;3;attempt;3.492;Alex Dombrandt;pick-and-go;LEI
+52;12;Opp22;0;59.002;65.162;3;none;6.16;DC;ground pass;LEI
+57;35;Opp10-22;2;18.186;20.666;4;attempt;2.48;DC;ground pass;LEI
+57;41;Opp10-22;1;24.462;25.982;1;none;1.52;DC;ground pass;LEI
+57;49;Opp10-22;1;32.127;34.227;3;none;2.1;DC;ground pass;LEI
+57;54;Opp10-22;1;37.141;38.661;2;none;1.52;DC;ground pass;LEI
+57;59;Opp10-22;1;42.491;46.231;2;attempt;3.74;DC;ground pass;LEI
+58;7;Opp10-22;2;50.325;52.445;2;none;2.12;DC;ground pass;LEI
+58;12;Opp10-22;1;56.041;59.201;3;attempt;3.16;DC;ground pass;LEI
+58;20;Opp50-10;2;;;;jackaled;;;jackaled;LEI
+58;55;Own22-10;0;38.584;46.736;3;attempt;8.152;DC;ground pass;LEI
+59;6;Own22;1;49.832;57.436;5;none;7.604;DC;box-kick;LEI
+60;11;Own22-10;0;54.551;64.006;4;disruption;9.455;DC;box-kick;LEI
+60;53;Own10-50;0;36.174;38.276;1;none;2.102;DC;ground pass;LEI
+61;4;Own22;1;47.807;64.297;5;attempt;16.49;DC;box-kick;LEI
+66;16;Own22-10;0;20.248;22.008;1;attempt;1.76;ML;ground pass;LEI
+68;37;Opp22;0;41.662;51.127;3;disruption;9.465;ML;ground pass;LEI
+68;49;Opp22;1;54.147;58.547;2;none;4.4;ML;ground pass;LEI
+68;57;Opp22;1;1.243;4.003;2;none;2.76;ML;ground pass;LEI
+69;3;Opp22;1;7.467;12.167;2;attempt;4.7;ML;ground pass;LEI
+69;10;Opp22;1;14.348;17.272;2;none;2.924;ML;ground pass;LEI
+69;18;Opp22;1;22.436;24.36;2;none;1.924;ML;ground pass;LEI
+69;23;Opp22;1;27.434;31.954;2;none;4.52;ML;ground pass;LEI
+69;32;Opp22;1;36.382;41.862;3;none;5.48;ML;ground pass;LEI
+69;40;Opp22;1;44.442;49.762;3;attempt;5.32;ML;ground pass;LEI
+69;48;Opp22;1;52.262;53.522;1;none;1.26;Stephan Lewies;pick-and-go;LEI
+69;52;Opp22;1;56.88;60.58;3;none;3.7;ML;ground pass;LEI
+69;59;Opp22;1;3.345;6.605;2;attempt;3.26;ML;ground pass;LEI
+71;55;Own22;0;59.91;70.054;4;none;10.144;ML;box-kick;LEI
+72;21;Own22;0;;;2;attempt;;;HAR penalty;LEI
+74;41;Own22-10;0;58.603;62.251;2;none;3.648;ML;ground pass;LEI
+74;47;Own22-10;1;4.799;6.487;2;none;1.688;ML;ground pass;LEI
+74;54;Own10-50;2;11.965;12.985;1;none;1.02;ML;ground pass;LEI
+75;9;Opp22;4;26.703;28.223;2;none;1.52;ML;ground pass;LEI
+76;29;Own22;0;37.452;46.424;3;none;8.972;ML;box-kick;LEI
+78;14;Opp10-22;3;44.463;47.703;2;attempt;3.24;ML;ground pass;LEI
+78;21;Opp10-22;2;;;2;attempt;;;knockon on floor;LEI
+79;35;Opp10-22;1;4.816;6.536;2;none;1.72;ML;ground pass;LEI
+79;42;Opp10-22;2;11.858;13.218;3;none;1.36;ML;ground pass;LEI
+79;45;Opp10-22;1;15.497;19.397;2;none;3.9;ML;ground pass;LEI
+79;52;Opp10-22;1;22.375;25.635;2;none;3.26;ML;ground pass;LEI
+79;58;Opp10-22;1;28.666;31.066;2;none;2.4;ML;ground pass;LEI
+80;9;Opp22;2;39.338;40.898;1;none;1.56;ML;ground pass;LEI
+81;31;Opp22;1;;;3;attempt;;;HAR penalty;LEI
+1;36;Own22;0;8.317;9.957;4;none;1.64;DC;pick-and-go;BTH
+4;29;Opp22;0;2.042;3.962;2;attempt;1.92;DC;ground pass;BTH
+4;40;Opp22;3;12.522;14.082;1;attempt;1.56;DC;ground pass;BTH
+4;44;Opp22;1;16.411;17.531;1;none;1.12;Wilco Louw;pick-and-go;BTH
+4;48;Opp22;1;20.816;23.616;3;none;2.8;DC;ground pass;BTH
+4;55;Opp22;1;27.701;30.141;3;none;2.44;DC;ground pass;BTH
+6;53;Own22-10;0;25.546;31.026;3;attempt;5.48;DC;ground pass;BTH
+7;1;Own22-10;1;33.899;40.819;4;disruption;6.92;DC;box-kick;BTH
+8;52;Opp22;0;10.062;12.862;3;none;2.8;Matt SYmons;ground pass;BTH
+8;59;Opp22;1;17.11;18.781;3;none;1.671;DC;ground pass;BTH
+9;4;Opp10-22;1;21.837;23.717;3;attempt;1.88;DC;ground pass;BTH
+9;12;Opp10-22;2;29.346;32.587;1;none;3.241;DC;ground pass;BTH
+9;18;Opp10-22;1;;;2;attempt;;;BTH penalty;BTH
+11;8;Own22;0;25.997;34.077;4;none;8.08;DC;box-kick;BTH
+14;42;Own10-50;2;0.232;2.272;2;attempt;2.04;Matt SYmons;pick-and-go;BTH
+14;48;Own10-50;0;5.606;7.054;3;none;1.448;DC;ground pass;BTH
+18;21;Own22;0;39.263;44.783;3;attempt;5.52;DC;ground pass;BTH
+18;30;Own22;1;47.314;57.994;5;attempt;10.68;DC;box-kick;BTH
+20;52;Opp10-22;0;10.065;13.145;3;none;3.08;DC;ground pass;BTH
+21;0;Opp10-22;1;17.35;22.585;2;none;5.235;DC;ground pass;BTH
+21;8;Opp10-22;1;26.028;27.588;2;none;1.56;DC;ground pass;BTH
+22;50;Opp50-10;0;8.076;10.556;2;none;2.48;DC;ground pass;BTH
+22;57;Opp50-10;2;14.73;16.962;2;none;2.232;DC;ground pass;BTH
+28;17;Own22-10;0;54.004;57.395;3;attempt;3.391;DC;ground pass;BTH
+28;23;Own22-10;1;0.04;10.344;4;attempt;10.304;DC;box-kick;BTH
+31;24;Own22-10;1;11.048;18.128;3;attempt;7.08;DC;box-kick;BTH
+32;2;Own10-50;0;48.605;51.085;2;none;2.48;DC;ground pass;BTH
+32;13;Opp10-22;3;59.781;63.821;2;attempt;4.04;Tyrone Green;ground pass;BTH
+32;22;Opp10-22;2;8.964;10.764;2;attempt;1.8;DC;ground pass;BTH
+32;27;Opp10-22;1;13.852;14.892;1;attempt;1.04;DC;ground pass;BTH
+39;13;Opp22;0;59.977;62.062;2;none;2.085;Joe Marchant;ground pass;BTH
+39;18;Opp22;1;4.697;6.537;2;attempt;1.84;Joe Marchant;ground pass;BTH
+39;23;Opp22;1;9.737;11.007;3;none;1.27;DC;ground pass;BTH
+39;30;Opp22;1;16.597;20.117;2;attempt;3.52;DC;ground pass;BTH
+39;36;Opp22;1;23.307;25.342;2;none;2.035;DC;ground pass;BTH
+39;42;Opp22;1;28.717;29.957;1;attempt;1.24;DC;ground pass;BTH
+39;50;Opp22;2;37.092;38.212;2;none;1.12;DC;ground pass;BTH
+39;55;Opp22;2;41.842;43.267;1;none;1.425;DC;ground pass;BTH
+39;59;Opp22;2;45.722;48.282;2;attempt;2.56;DC;ground pass;BTH
+40;4;Own22-10;0;34.65;40.29;2;none;5.64;Jack Kenningham;ground pass;BTH
+40;13;Own22-10;1;43.513;49.833;4;none;6.32;DC;box-kick;BTH
+43;37;Opp10-22;0;7.453;9.453;2;none;2;DC;ground pass;BTH
+43;42;Opp10-22;2;14.283;17.603;2;attempt;3.32;DC;ground pass;BTH
+43;51;Opp10-22;2;21.667;25.187;2;none;3.52;DC;ground pass;BTH
+43;58;Opp10-22;1;28.625;30.065;2;attempt;1.44;DC;ground pass;BTH
+45;56;Own10-50;1;26.868;29.388;3;none;2.52;DC;ground pass;BTH
+53;41;Opp10-22;2;10.451;12.723;3;none;2.272;ML;ground pass;BTH
+53;49;Opp10-22;2;18.196;20.236;1;none;2.04;ML;ground pass;BTH
+53;56;Opp10-22;1;25.715;26.995;1;none;1.28;ML;ground pass;BTH
+54;2;Opp10-22;2;31.392;33.952;1;none;2.56;ML;ground pass;BTH
+54;9;Opp10-22;2;38.656;40.976;1;none;2.32;ML;ground pass;BTH
+54;14;Opp10-22;1;43.44;44.76;2;none;1.32;Jack Kenningham;pick-and-go;BTH
+54;18;Opp10-22;0;47.315;49.315;3;attempt;2;ML;ground pass;BTH
+54;24;Opp22;1;;;2;attempt;;;HAR penalty;BTH
+57;14;Own22;0;57.724;60.604;2;attempt;2.88;ML;ground pass;BTH
+57;20;Own22;1;2.964;10.772;4;none;7.808;ML;box-kick;BTH
+59;13;Opp10-22;4;23.366;25.406;2;none;2.04;ML;ground pass;BTH
+61;12;Opp50-10;0;22.018;25.018;3;attempt;3;ML;ground pass;BTH
+63;25;Opp50-10;0;55.957;58.837;2;none;2.88;ML;ground pass;BTH
+63;31;Opp10-22;2;2.259;5.579;2;none;3.32;ML;ground pass;BTH
+63;40;Opp50-10;3;10.531;13.939;2;attempt;3.408;ML;ground pass;BTH
+75;41;Opp10-22;1;2.99;8.766;2;none;5.776;ML;ground pass;BTH
+75;49;Opp10-22;1;11.7;14.836;1;none;3.136;ML;ground pass;BTH
+75;55;Opp10-22;1;17.882;20.962;1;none;3.08;ML;ground pass;BTH
+76;1;Opp10-22;1;23.913;28.297;3;attempt;4.384;ML;ground pass;BTH
+76;9;Opp10-22;1;31.233;33.353;2;none;2.12;ML;ground pass;BTH
+76;15;Opp10-22;1;37.051;41.083;2;none;4.032;ML;ground pass;BTH
+76;27;Opp10-22;3;49.178;53.922;4;attempt;4.744;Matt SYmons;ground pass;BTH
+76;39;Opp10-22;2;1.577;6.929;3;attempt;5.352;Alex Dombrandt;ground pass;BTH
+76;48;Opp10-22;1;10.603;16.011;2;disruption;5.408;ML;ground pass;BTH
+76;56;Opp10-22;1;18.806;22.486;2;disruption;3.68;ML;ground pass;BTH
+77;4;Opp10-22;2;26.892;31.581;2;none;4.689;ML;ground pass;BTH
+77;12;Opp10-22;2;34.684;35.564;2;none;0.88;ML;ground pass;BTH
+77;19;Opp22;4;41.938;43.794;1;attempt;1.856;ML;pick-and-go;BTH
+79;24;Own22-10;0;18.755;22.035;2;none;3.28;Aaron Morris;ground pass;BTH
+79;31;Own22;1;25.626;32.529;2;none;6.903;ML;ground pass;BTH
+79;41;Own22;1;35.801;40.803;2;attempt;5.002;ML;ground pass;BTH
+79;50;Own22;1;44.145;50.602;3;attempt;6.457;ML;ground pass;BTH
+4;2;Opp10-22;3;31.048;33.724;3;none;2.676;DC;ground pass;
+4;9;Opp50-10;3;38.588;42.706;3;attempt;4.118;DC;pick-and-go;
+6;27;Opp22;0;56.002;58.492;2;none;2.49;Aaron Morris;ground pass;
+6;32;Opp22;1;1.646;3.312;2;none;1.666;DC;pick-and-go;
+6;37;Opp10-22;1;6.572;13.517;4;attempt;6.945;Matt Symons;ground pass;
+6;49;Opp10-22;2;;;2;jackaled;;;jackaled;
+10;30;Opp10-22;0;59.608;65.565;3;attempt;5.957;Tyrone Green;ground pass;
+10;39;Opp10-22;1;8.837;17.52;2;attempt;8.683;DC;ground pass;
+10;52;Opp10-22;1;21.257;25.448;2;none;4.191;DC;ground pass;
+11;0;Opp10-22;2;29.851;31.662;2;none;1.811;DC;ground pass;
+15;16;Own10-50;1;44.888;46.826;2;none;1.938;DC;ground pass;
+18;38;Own22-10;1;7.353;11.626;3;attempt;4.273;DC;box-kick;
+24;0;Opp22;2;26.61;28.361;2;attempt;1.751;Jack Kenningham;pick-and-go;
+26;25;Own22;1;51.407;59.904;5;none;8.497;DC;box-kick;
+31;1;Opp22;0;39.289;40.409;2;none;1.12;DC;ground pass;
+31;5;Opp22;1;44.036;;2;attempt;;;BRI pen;
+32;18;Opp22;0;56.742;59.959;2;disruption;3.217;DC;ground pass;
+32;24;Opp22;1;2.77;4.701;2;none;1.931;DC;ground pass;
+33;37;Own10-50;0;32.191;35.604;2;attempt;3.413;DC;ground pass;
+33;46;Opp50-10;2;41.299;43.21;2;none;1.911;DC;ground pass;
+33;56;Opp50-10;3;;;1;attempt;;;HAR pen;
+35;24;Own22;0;20.145;24.282;2;attempt;4.137;DC;box-kick;
+36;49;Own10-50;0;27.868;29.228;1;attempt;1.36;DC;pick-and-go;
+37;27;Opp50-10;0;8.013;9.783;2;none;1.77;DC;ground pass;
+37;34;Opp50-10;2;13.426;14.638;1;none;1.212;DC;ground pass;
+37;40;Opp50-10;2;19.938;21.444;2;none;1.506;DC;ground pass;
+37;49;Opp50-10;1;28.417;30.48;3;none;2.063;DC;pick-and-go;
+37;56;Own10-50;1;36.258;40.754;2;attempt;4.496;DC;ground pass;
+38;6;Own10-50;1;43.867;46.323;2;attempt;2.456;DC;ground pass;
+40;27;Opp10-22;2;48.768;50.168;2;attempt;1.4;DC;ground pass;
+40;35;Opp10-22;2;58.042;59.418;3;none;1.376;DC;ground pass;
+40;46;Opp22;0;8.58;14.872;3;attempt;6.292;Joe Marchant;ground pass;
+41;0;Opp10-22;3;22.138;24.224;3;none;2.086;Luke Northmore;ground pass;
+41;10;Opp22;4;31.997;34.042;1;disruption;2.045;DC;ground pass;
+41;15;Opp22;1;37.376;42.096;2;attempt;4.72;DC;ground pass;
+41;25;Opp22;1;46.861;48.927;2;attempt;2.066;DC;ground pass;
+43;26;Own10-50;3;50.238;56.264;3;disruption;6.026;DC;ground pass;
+43;36;Own10-50;1;0.477;7.23;3;none;6.753;DC;box-kick;
+45;50;Own22-10;0;20.358;24.205;4;none;3.847;DC;box-kick;
+47;58;Own10-50;2;53.884;55.244;3;none;1.36;DC;ground pass;
+52;5;Own10-50;1;14.498;21.178;3;attempt;6.68;DC;ground pass;
+52;15;Own10-50;1;24.567;28.143;3;none;3.576;DC;box-kick;
+55;41;Own22;0;23.483;32.772;5;disruption;9.289;DC;box-kick;
+57;47;Own22-10;0;55.284;57.124;4;attempt;1.84;DC;box-kick;
+61;12;Own22;1;;;5;attempt;;;BRI pen;
+67;3;Opp22;1;56.549;59.125;1;none;2.576;DC;ground pass;
+67;13;Opp22;3;6.092;9.283;2;disruption;3.191;DC;ground pass;
+67;22;Opp22;2;14.9;16.22;1;none;1.32;DC;pick-and-go;
+67;29;Opp22;2;21.843;23.563;2;none;1.72;DC;ground pass;
+69;2;Opp22;0;57.598;64.558;1;disruption;6.96;DC;ground pass;
+69;11;Opp22;1;6.736;9.256;2;attempt;2.52;DC;ground pass;
+69;18;Opp22;1;13.095;15.255;2;disruption;2.16;DC;ground pass;
+69;22;Opp22;1;17.975;21.655;3;attempt;3.68;DC;ground pass;
+69;29;Opp22;1;24.607;27.047;3;none;2.44;DC;ground pass;
+69;34;Opp22;1;30.046;32.206;2;disruption;2.16;DC;ground pass;
+71;28;Opp50-10;0;;;3;attempt;;;BRI pen;
+71;42;Opp10-22;2;43.513;47.273;2;attempt;3.76;DC;pick-and-go;
+75;4;Opp50-10;3;51.2;53.36;2;none;2.16;DC;ground pass;
+77;5;Own22;0;56.672;63.392;3;disruption;6.72;DC;ground pass;
+77;15;Own22;1;6.791;14.351;4;none;7.56;DC;box-kick;
+79;52;Opp10-22;3;43.938;46.418;2;attempt;2.48;Joe Marchant;pick-and-go;
+79;58;Opp10-22;1;49.29;51.41;1;none;2.12;Joe Marchant;ground pass;
+80;3;Opp10-22;2;55;57.16;3;none;2.16;DC;ground pass;
+80;12;Opp10-22;4;3.924;6.524;2;disruption;2.6;Jack Kenningham;pick-and-go;
+80;17;Opp22;0;8.966;11.566;3;none;2.6;DC;ground pass;
+81;7;Own22;0;1.879;5.911;3;disruption;4.032;DC;ground pass;
+81;14;Own22;1;8.732;17.188;4;none;8.456;DC;box-kick;
+82;18;Own10-50;0;12.651;15.931;2;none;3.28;DC;ground pass;
+82;24;Own10-50;1;18.48;27.72;4;none;9.24;DC;box-kick;
+84;9;Opp50-10;3;58.837;61.117;3;none;2.28;DC;ground pass;
+84;16;Opp50-10;1;5.797;9.179;3;none;3.382;DC;ground pass;
+84;24;Own10-50;3;;;2;jackaled;;;;
+86;20;Opp50-10;0;10.633;12.673;3;none;2.04;DC;box-kick;
+88;33;Opp50-10;0;4.161;5.777;3;none;1.616;Louis Lynagh;ground pass;
+88;39;Own22-10;2;11.098;13.498;2;none;2.4;DC;ground pass;
+89;13;Own22-10;0;43.805;47.005;4;attempt;3.2;Joe Marchant;ground pass;
+89;31;Opp50-10;5;2.004;4.884;4;attempt;2.88;DC;ground pass;
+89;37;Opp50-10;1;8.529;11.609;2;attempt;3.08;DC;ground pass;
+89;52;Opp50-10;3;22.772;24.732;2;none;1.96;DC;ground pass;
+89;58;Own10-50;1;29.577;34.641;2;none;5.064;DC;ground pass;
+90;18;Opp10-22;0;48.838;52.078;3;none;3.24;DC;ground pass;
+91;56;Opp22;5;38.23;39.99;3;none;1.76;DC;ground pass;
+92;2;Opp22;1;44.55;46.71;2;none;2.16;DC;pick-and-go;
+92;9;Opp22;0;51.041;57.578;4;attempt;6.537;Dino Lamb;pick-and-go;
+92;19;Opp22;0;0.815;3.695;2;none;2.88;Matt Symons;ground pass;
+92;27;Opp22;1;8.744;10.184;2;none;1.44;DC;ground pass;
+98;44;Opp50-10;1;5.006;7.246;2;none;2.24;Joe Gray;ground pass;
+98;50;Own10-50;1;10.966;17.006;3;none;6.04;Tyrone Green;ground pass;
+105;5;Own10-50;0;23.28;25.84;3;none;2.56;ML;ground pass;
+107;18;Opp10-22;1;52.373;62.093;3;attempt;9.72;ML;ground pass;
+107;29;Opp10-22;1;3.907;;3;jackaled;;;;
+0;25;Opp10-22;0;36.732;39.332;4;attempt;2.6;DC;ground pass;
+0;31;Opp50-10;1;42.656;44.236;2;attempt;1.58;DC;ground pass;
+0;36;Opp50-10;1;47.747;49.077;1;none;1.33;DC;pick-and-go;
+0;39;Opp10-22;0;50.895;52.598;3;none;1.703;none;pass;
+0;47;Opp10-22;2;58.394;60.174;2;attempt;1.78;DC;ground pass;
+2;10;Own22-10;0;51.341;53.521;3;attempt;2.18;DC;ground pass;
+2;16;Own22-10;1;58.036;67.279;4;none;9.243;DC;box-kick;
+3;35;Opp10-22;3;17.057;19.517;2;none;2.46;DC;ground pass;
+3;43;Opp10-22;2;25.26;28.14;3;disruption;2.88;DC;ground pass;
+3;50;Opp10-22;2;32.02;33.485;2;none;1.465;DC;pick-and-go;
+6;8;Own22-10;0;49.728;53.808;2;none;4.08;DC;ground pass;
+6;16;Own22;1;57.307;63.387;4;none;6.08;DC;box-kick;
+9;47;Opp10-22;0;28.81;;2;jackaled;;;;
+22;46;Opp50-10;1;25.004;28.964;4;none;3.96;DC;ground pass;
+23;47;Own22-10;0;;;3;attempt;;;EXE pen;
+24;54;Opp10-22;4;33.072;35.772;2;attempt;2.7;DC;ground pass;
+30;52;Own22-10;1;14.071;22.274;5;attempt;8.203;DC;box-kick;
+31;11;Own10-50;0;30.547;32.487;3;none;1.94;DC;ground pass;
+33;19;Opp22;1;7.877;9.697;2;none;1.82;DC;pick-and-go;
+33;25;Opp22;1;13.244;16.944;3;attempt;3.7;DC;ground pass;
+33;31;Opp22;1;19.452;22.232;3;none;2.78;DC;pick-and-go;
+33;36;Opp22;0;24.893;31.633;4;disruption;6.74;Scott Baldwin;ground pass;
+33;47;Opp22;1;35.357;37.497;2;disruption;2.14;Joe Marler;pick-and-go;
+33;51;Opp22;0;39.522;44.382;2;disruption;4.86;DC;ground pass;
+34;0;Opp22;1;;;2;attempt;;;EXE pen;
+37;5;Opp22;1;20.109;22.289;2;none;2.18;DC;ground pass;
+37;9;Opp22;1;24.485;27.645;3;none;3.16;DC;ground pass;
+39;9;Own22-10;0;24.172;29.048;3;disruption;4.876;DC;ground pass;
+39;16;Own22-10;1;31.739;40.419;5;none;8.68;DC;box-kick;
+39;42;Own10-50;0;57.387;60.693;2;none;3.306;Joe Marler;ground pass;
+42;18;Opp22;4;34.79;37.11;2;attempt;2.32;DC;ground pass;
+42;24;Opp22;1;40.446;42.746;2;attempt;2.3;none;pass;
+44;42;Opp22;0;58.578;61.598;3;attempt;3.02;Stephen Lewies;pick-and-go;
+44;47;Opp22;0;3.507;7.027;2;attempt;3.52;DC;ground pass;
+40;8;Own22-10;0;55.985;61.425;2;none;5.44;DC;ground pass;
+40;16;Own22;1;4.362;12.569;5;disruption;8.207;DC;box-kick;
+41;16;Own22-10;0;4.125;7.266;3;disruption;3.141;Tyrone Green;ground pass;
+41;22;Own22-10;1;10.382;19.322;5;disruption;8.94;DC;box-kick;
+42;6;Opp50-10;0;54.371;56.871;2;none;2.5;DC;ground pass;
+42;29;Opp50-10;1;17.042;19.282;3;attempt;2.24;DC;ground pass;
+42;51;Opp50-10;0;39.865;45.405;3;attempt;5.54;DC;ground pass;
+43;1;Opp50-10;3;49.485;51.905;1;attempt;2.42;DC;ground pass;
+43;25;Opp10-22;2;14.366;15.526;1;none;1.16;Stephen Lewies;ground pass;
+43;39;Opp22;5;27.192;28.332;1;attempt;1.14;DC;ground pass;
+51;19;Own22;0;45.184;47.724;1;attempt;2.54;Andre Esterhuizen;pick-and-go;
+51;24;Own22;0;50.804;60.224;5;attempt;9.42;DC;ground pass;
+51;35;Own22;1;1.92;8.009;5;attempt;6.089;DC;box-kick;
+52;17;Own22-10;0;0.881;6.681;2;attempt;5.8;Andre Esterhuizen;ground pass;
+52;26;Own22-10;1;10.356;12.936;2;none;2.58;DC;ground pass;
+55;20;Opp50-10;0;3.725;5.808;2;attempt;2.083;DC;ground pass;
+55;27;Opp10-22;2;10.593;14.593;2;attempt;4;DC;ground pass;
+55;36;Opp10-22;2;19.043;20.644;3;none;1.601;DC;ground pass;
+57;3;Opp22;1;47.518;49.886;2;none;2.368;DC;ground pass;
+57;9;Opp22;1;;;2;attempt;;;HAR pen;
+60;25;Opp50-10;0;31.428;37.079;3;disruption;5.651;DC;ground pass;
+60;34;Opp50-10;1;40.651;44.091;2;none;3.44;DC;ground pass;
+60;41;Own10-50;2;47.344;50.684;2;none;3.34;DC;ground pass;
+60;47;Opp50-10;1;53.252;54.712;2;none;1.46;DC;ground pass;
+61;18;Opp10-22;3;;;2;attempt;;;HAR pen;
+67;46;Own22-10;0;52.116;54.376;3;none;2.26;DC;ground pass;
+67;52;Own22-10;1;57.835;67.363;5;none;9.528;DC;box-kick;
+68;40;Own22;0;46.411;52.639;4;disruption;6.228;DC;ground pass;
+68;50;Own22;1;56.139;68.91;5;disruption;12.771;DC;box-kick;
+70;39;Opp22;3;13.858;18.798;2;attempt;4.94;DC;ground pass;
+70;48;Opp10-22;1;22.964;24.745;2;none;1.781;DC;ground pass;
+70;54;Opp10-22;1;28.008;30.948;2;attempt;2.94;DC;ground pass;
+71;0;Opp10-22;1;34.042;35.922;2;attempt;1.88;DC;ground pass;
+71;9;Opp22;4;43.858;47.638;1;attempt;3.78;DC;ground pass;
+71;16;Opp22;2;50.863;53.263;3;none;2.4;DC;ground pass;
+74;39;Opp10-22;1;55.991;59.111;2;attempt;3.12;DC;ground pass;
+74;48;Opp22;2;4.971;7.451;2;disruption;2.48;DC;ground pass;
+74;52;Opp22;1;8.819;16.299;3;attempt;7.48;Joe Marchant;ground pass;
+75;1;Opp22;1;18.408;23.648;3;attempt;5.24;Joe Marchant;ground pass;
+75;9;Opp22;1;25.683;29.403;2;disruption;3.72;DC;ground pass;
+75;15;Opp22;1;32.265;34.485;2;attempt;2.22;DC;ground pass;
+75;24;Opp22;3;40.933;45.053;3;none;4.12;DC;ground pass;
+75;31;Opp22;1;47.766;50.546;3;none;2.78;DC;ground pass;
+75;35;Opp22;1;52.594;59.614;2;attempt;7.02;DC;ground pass;
+75;47;Opp22;1;4.63;7.11;2;attempt;2.48;DC;ground pass;
+79;42;Opp22;1;59.239;66.719;3;disruption;7.48;DC;ground pass;
+79;51;Opp22;1;8.548;15.448;4;disruption;6.9;DC;kick into touch;
