@@ -35,22 +35,22 @@ BART_DAT <- data.frame(Time = ClTm,              # clock time
 dplyr::filter(complete.cases(.))
 #--------------------------------------------------------------------------------------------------------------------
 # PLOT RECYCLE SPEED DISTRIBUTION
-med_no <- which.min(abs(density(R_1$RecS)$x - median(R_1$RecS)))
+med_no <- which.min(abs(density(BART_DAT$RecS)$x - median(BART_DAT$RecS)))
 
-plot_ly(x = density(R_1$RecS)$x,
-        y = density(R_1$RecS)$y,
+plot_ly(x = density(BART_DAT$RecS)$x,
+        y = density(BART_DAT$RecS)$y,
         type = "scatter", mode = "lines", 
         line = list(color = "black", width = 2.2),
         fill = 'tonexty', fillcolor="rgba(0,100,80,0.2)") %>%
-  add_trace(x = median(R_1$RecS),
-            y = seq(0, density(R_1$RecS)$y[med_no], length.out = 222),
+  add_trace(x = median(BART_DAT$RecS),
+            y = seq(0, density(BART_DAT$RecS)$y[med_no], length.out = 222),
             type = "scatter", mode = "lines", inherit = FALSE,
             line = list(color = "black", dash = "dash", width = 0.75)) %>% 
-  add_trace(x = seq(0, density(R_1$RecS)$x[med_no], length.out = 222),
-            y = density(R_1$RecS)$y[med_no],
+  add_trace(x = seq(0, density(BART_DAT$RecS)$x[med_no], length.out = 222),
+            y = density(BART_DAT$RecS)$y[med_no],
             type = "scatter", mode = "lines", inherit = FALSE,
             line = list(color = "black", dash = "dash", width = 0.75)) %>%
-  layout(title = paste("<b>",R_T, ": <br>Recycle Speed Distribution", sep = ""),
+  layout(title = "<b>Harlequins 2021<br>Recycle Speed Distribution",
          xaxis = list(title = "Recycle Speed in Seconds",
                       ticks = "outside", tickcolor = "rgb(255,255,255)",
                       gridcolor = "rgb(255,255,255)"),
@@ -61,17 +61,39 @@ plot_ly(x = density(R_1$RecS)$x,
          plot_bgcolor = "rgb(229,229,229)",
          showlegend = FALSE,
          margin = list(b = 150, t = 150, l = 150, r = 150, pad = 1)) %>% 
-  add_annotations(text = paste("Median Recycle Speed:<br>", round(median(R_1$RecS),2), "sec"),
+  add_annotations(text = paste("Median Recycle Speed:<br>", round(median(BART_DAT$RecS),2), "sec"),
                   xref= "x", yref = "y", 
-                  x = median(R_1$RecS) + 3, 
-                  y = density(R_1$RecS)$y[med_no],
+                  x = median(BART_DAT$RecS) + 3, 
+                  y = density(BART_DAT$RecS)$y[med_no],
                   showarrow = FALSE)
 #--------------------------------------------------------------------------------------------------------------------
 # BART: CROSS-VALIDATION
 # See CHIPMAN, GEORGE AND MCCULLOCH (2010) for more details
-QRS_feat <- R_1$RecS[(R_1$OUTC == "ground pass")]
-RSA_spee <- bartMachineCV(X = R_2[(R_2$Outcome == "ground pass"),][,1:5],
-                          y = R_2$Speed[(R_2$Outcome == "ground pass")],
+QRS_bMCV <- bartMachineCV(X = BART_DAT[(R_2$Outcome == "ground pass"),][,1:5],
+                          y = BART_DAT$RecS[(R_2$Outcome == "ground pass")],
                           k_cvs = c(2,5)                                         # k - shrinkage parameter: shrinks the tree parameters toward 0, keeps the individual tree components small, hence limiting their effects
-                          num_tree_cvs = c(),
+                          num_tree_cvs = c(25, 50, 150),                         # number of trees
                           s_sq_y = "mse") 
+# Inspect the results
+QRS_bMCV$cv_stats
+#--------------------------------------------------------------------------------------------------------------------
+# BART: ESTIMATIONS
+QRS_bMod <- bartMachine(
+  X = BART_DAT[(BART_DAT$OUTC == "ground pass"),][,1:5],
+  y = BART_DAT$RecS[(BART_DAT$OUTC == "ground pass")],
+  alpha = 0.95,                                                                  # alpha(1 + d)^beta => probability that a node at depth d = 0, 1, ... is non-terminal
+  beta = 2,
+  k = 2, 
+  nu = 3,                                                                        # degrees of freedom parameter for the residual variance prior (nu < 3 leads to overfitting, see CHIPMAN, GEORGE AND MCCULLOCH (2010))
+  q = 0.9,
+  num_trees = 25,
+  num_iterations = 20000,
+  num_burn_in = 10000
+)
+#--------------------------------------------------------------------------------------------------------------------
+# BART: 'DIAGNOSTICS'
+summary(QRS_bMod)
+# Observed vs. fitted values
+plot_ly(x = BART_DAT$RecS[(BART_DAT$OUTC == "ground pass")],
+        y = QRS_bMod$y_hat_train,
+        type = "scatter", mode = "markers")
