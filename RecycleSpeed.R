@@ -41,7 +41,7 @@ plot_ly(x = density(BART_DAT$RecS)$x,
         y = density(BART_DAT$RecS)$y,
         type = "scatter", mode = "lines", 
         line = list(color = "black", width = 2.2),
-        fill = 'tonexty', fillcolor="rgba(0,100,80,0.2)") %>%
+        fill = 'tonexty', fillcolor = "rgba(0,100,80,0.2)") %>%
   add_trace(x = median(BART_DAT$RecS),
             y = seq(0, density(BART_DAT$RecS)$y[med_no], length.out = 222),
             type = "scatter", mode = "lines", inherit = FALSE,
@@ -93,7 +93,21 @@ QRS_bMod <- bartMachine(
 #--------------------------------------------------------------------------------------------------------------------
 # BART: 'DIAGNOSTICS'
 summary(QRS_bMod)
+QRS_bMod$PseudoRsq                                                               # pseudo-R-square
 # Observed vs. fitted values
-plot_ly(x = BART_DAT$RecS[(BART_DAT$OUTC == "ground pass")],
+plot_lyx = BART_DAT$RecS[(BART_DAT$OUTC == "ground pass")],
         y = QRS_bMod$y_hat_train,
-        type = "scatter", mode = "markers")
+        type = "scatter", mode = "markers",
+        marker = list(color = "rgba(0,100,80,0.2)",
+                      line = list(color = "black", width = 0.5))) %>%
+  layout(title = "<b>Actual vs. Predicted",
+         xaxis = list(title = "Actual",
+                      ticks = "outside", tickcolor = "rgb(255,255,255)",
+                      gridcolor = "rgb(255,255,255)"),
+         yaxis = list(title = "Predicted",
+                      ticks = "outside", tickcolor = "rgb(255,255,255)",
+                      gridcolor = "rgb(255,255,255)"),
+         paper_bgcolor = "rgb(222,222,222)", 
+         plot_bgcolor = "rgb(229,229,229)",
+         showlegend = FALSE,
+         margin = list(b = 150, t = 150, l = 150, r = 150, pad = 1)) 
