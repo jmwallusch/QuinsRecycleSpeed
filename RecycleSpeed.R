@@ -71,7 +71,7 @@ plot_ly(x = density(BART_DAT$RecS)$x,
 # See CHIPMAN, GEORGE AND MCCULLOCH (2010) for more details
 QRS_bMCV <- bartMachineCV(X = BART_DAT[(R_2$Outcome == "ground pass"),][,1:5],
                           y = BART_DAT$RecS[(R_2$Outcome == "ground pass")],
-                          k_cvs = c(2,5)                                         # k - shrinkage parameter: shrinks the tree parameters toward 0, keeps the individual tree components small, hence limiting their effects
+                          k_cvs = c(2,5)                                         # k - shrinkage parameter: shrinks the tree parameters towards 0, keeps the individual tree components small, hence limiting their effects
                           num_tree_cvs = c(25, 50, 150),                         # number of trees
                           s_sq_y = "mse") 
 # Inspect the results
@@ -94,6 +94,8 @@ QRS_bMod <- bartMachine(
 # BART: 'DIAGNOSTICS'
 summary(QRS_bMod)
 QRS_bMod$PseudoRsq                                                               # pseudo-R-square
+QRS_bMod$L1_err_train                                                            # sum of absolute residuals
+QRS_bMod$L2_err_train                                                            # sum of squared residuals
 # Observed vs. fitted values
 plot_lyx = BART_DAT$RecS[(BART_DAT$OUTC == "ground pass")],
         y = QRS_bMod$y_hat_train,
