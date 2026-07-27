@@ -23,3 +23,46 @@ zone <- ifelse(RSA$Zone == "Own22", 1,
 # Clock
 ClTm <- as.numeric(paste(RSA$Min,".",RSA$Sec, sep = ""))
 #--------------------------------------------------------------------------------------------------------------------
+# DATA FOR BART MODEL
+BART_DAT <- data.frame(Time = ClTm,              # clock time
+                       Zone = zone,              # pitch zone
+                       Prot = RSA$Protection,    # attacking player committed 
+                       CNTR = CntR,              # counterrucking (yes = 1, no = 0)
+                       PASS = RSA$Pass,          # number of passes before ruck
+                       OUTC = RSA$Outcome,       # ruck's outcome (e.g. ground pass, pick-and-go, jackal)
+                       SHn9 = RSA$SF,            # player 
+                       RecS = RSA$Speed) %>%     # recycle speed
+dplyr::filter(complete.cases(.))
+#--------------------------------------------------------------------------------------------------------------------
+# PLOT RECYCLE SPEED DISTRIBUTION
+med_no <- which.min(abs(density(R_1$RecS)$x - median(R_1$RecS)))
+
+plot_ly(x = density(R_1$RecS)$x,
+        y = density(R_1$RecS)$y,
+        type = "scatter", mode = "lines", 
+        line = list(color = "black", width = 2.2),
+        fill = 'tonexty', fillcolor="rgba(0,100,80,0.2)") %>%
+  add_trace(x = median(R_1$RecS),
+            y = seq(0, density(R_1$RecS)$y[med_no], length.out = 222),
+            type = "scatter", mode = "lines", inherit = FALSE,
+            line = list(color = "black", dash = "dash", width = 0.75)) %>% 
+  add_trace(x = seq(0, density(R_1$RecS)$x[med_no], length.out = 222),
+            y = density(R_1$RecS)$y[med_no],
+            type = "scatter", mode = "lines", inherit = FALSE,
+            line = list(color = "black", dash = "dash", width = 0.75)) %>%
+  layout(title = paste("<b>",R_T, ": <br>Recycle Speed Distribution", sep = ""),
+         xaxis = list(title = "Recycle Speed in Seconds",
+                      ticks = "outside", tickcolor = "rgb(255,255,255)",
+                      gridcolor = "rgb(255,255,255)"),
+         yaxis = list(title = "Kernel Density",
+                      ticks = "outside", tickcolor = "rgb(255,255,255)",
+                      gridcolor = "rgb(255,255,255)"),
+         paper_bgcolor = "rgb(222,222,222)", 
+         plot_bgcolor = "rgb(229,229,229)",
+         showlegend = FALSE,
+         margin = list(b = 150, t = 150, l = 150, r = 150, pad = 1)) %>% 
+  add_annotations(text = paste("Median Recycle Speed:<br>", round(median(R_1$RecS),2), "sec"),
+                  xref= "x", yref = "y", 
+                  x = median(R_1$RecS) + 3, 
+                  y = density(R_1$RecS)$y[med_no],
+                  showarrow = FALSE)
