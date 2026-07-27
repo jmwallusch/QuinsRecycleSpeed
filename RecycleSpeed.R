@@ -66,3 +66,11 @@ plot_ly(x = density(R_1$RecS)$x,
                   x = median(R_1$RecS) + 3, 
                   y = density(R_1$RecS)$y[med_no],
                   showarrow = FALSE)
+#--------------------------------------------------------------------------------------------------------------------
+# BART: CROSS-VALIDATION
+# See CHIPMAN, GEORGE AND MCCULLOCH (2010) for more details
+QRS_feat <- R_1$RecS[(R_1$OUTC == "ground pass")]
+RSA_spee <- bartMachineCV(X = R_2[(R_2$Outcome == "ground pass"),][,1:5],
+                          y = R_2$Speed[(R_2$Outcome == "ground pass")],
+                          k_cvs = c(2,5)                                         # k - 
+                          s_sq_y = "mse") 
