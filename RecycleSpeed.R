@@ -72,5 +72,6 @@ plot_ly(x = density(R_1$RecS)$x,
 QRS_feat <- R_1$RecS[(R_1$OUTC == "ground pass")]
 RSA_spee <- bartMachineCV(X = R_2[(R_2$Outcome == "ground pass"),][,1:5],
                           y = R_2$Speed[(R_2$Outcome == "ground pass")],
-                          k_cvs = c(2,5)                                         # k - 
+                          k_cvs = c(2,5)                                         # k - shrinkage parameter: shrinks the tree parameters toward 0, keeps the individual tree components small, hence limiting their effects
+                          num_tree_cvs = c(),
                           s_sq_y = "mse") 
