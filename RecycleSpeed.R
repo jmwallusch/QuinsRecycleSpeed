@@ -113,3 +113,32 @@ plot_lyx = BART_DAT$RecS[(BART_DAT$OUTC == "ground pass")],
          plot_bgcolor = "rgb(229,229,229)",
          showlegend = FALSE,
          margin = list(b = 150, t = 150, l = 150, r = 150, pad = 1)) 
+#--------------------------------------------------------------------------------------------------------------------
+# BART: FEATURE IMPORTANCE
+QRS_IMP <- investigate_var_importance(RSA_Bart, 
+                                      num_replicates_for_avg = 10, 
+                                      plot = FALSE)
+IMP_VAL <- as.numeric(QRS_IMP$avg_var_props)
+IMP_SDV <- as.numeric(QRS_IMP$sd_var_props)
+IMP_NAM <- names(QRS_IMP$avg_var_props)
+# Plot average feature importance with +/- sd
+plot_ly(x = c("Counter-Rucking", "Pass", "Protection", "Time", "Zone"),
+        y = IMP_VAL + IMP_SDV,
+        type = "scatter", mode = "markers", name = "Upper",
+        marker = list(symbol = "y-down-open", color = "black")) %>%
+  add_trace(y = IMP_VAL,
+            type = "scatter", mode = "markers", name = "Feat. Importance",
+            marker = list(symbol = "diamond", size = 8, color = "black")) %>% 
+  add_trace(y = IMP_VAL - IMP_SDV,
+            type = "scatter", mode = "markers", name = "Lower",
+            marker = list(symbol = "y-up-open", color = "black")) %>% 
+  layout(title = "<b>Feature Importance",
+         xaxis = list(title = "Feature",
+                      ticks = "outside", tickcolor = "rgb(255,255,255)",
+                      gridcolor = "rgb(255,255,255)"),
+         yaxis = list(title = "Feature Importance",
+                      ticks = "outside", tickcolor = "rgb(255,255,255)",
+                      gridcolor = "rgb(255,255,255)"),
+         paper_bgcolor = "rgb(222,222,222)", 
+         plot_bgcolor = "rgb(229,229,229)",
+         margin = list(b = 100, t = 100, l = 150, r = 150, pad = 1))
