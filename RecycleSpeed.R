@@ -158,14 +158,48 @@ HAR_exp <- cbind(HAR_sim,                                  # perform simulations
                  pred = round(predict(QRS_bMod,
                                       HAR_sim), 2)
 )
+subplot(
 plot_ly(x = HAR_exp[1:4,3],
-        y = HAR_exp[1:4,6],
-        type = "scatter", mode = "lines+markers", name = "no counterrucking") %>% 
+        y = HAR_int[1:4,1],
+        type = "scatter", mode = "lines", 
+        name = "lower", showlegend = FALSE,
+        line = list(color = "transparent")) %>% 
+  add_trace(x = HAR_exp[1:4,3],
+            y = HAR_int[1:4,2],
+            type = "scatter", mode = "lines", inherit = FALSE,
+            name = "upper", showlegend = FALSE,
+            line = list(color = "transparent"),
+            fill = "tonexty", fillcolor="rgba(0,100,80,0.2)") %>% 
+  add_trace(x = HAR_exp[1:4,3],
+            y = HAR_exp[1:4,6],
+            type = "scatter", mode = "lines+markers", inherit = FALSE,
+            name = "no counterrucking",
+            line = list(color = "black"),
+            marker = list(symbol = "diamond", size = 8, color = "black")),
+plot_ly(x = HAR_exp[5:8,3],
+        y = HAR_int[5:8,1],
+        type = "scatter", mode = "lines", 
+        name = "lower", showlegend = FALSE,
+        line = list(color = "transparent")) %>% 
+  add_trace(x = HAR_exp[5:8,3],
+            y = HAR_int[5:8,2],
+            type = "scatter", mode = "lines", inherit = FALSE,
+            name = "upper", showlegend = FALSE,
+            line = list(color = "transparent"),
+            fill = "tonexty", fillcolor="rgba(0,100,80,0.2)") %>% 
   add_trace(x = HAR_exp[5:8,3],
             y = HAR_exp[5:8,6],
-            type = "scatter", mode = "lines+markers", name = "with counterrucking") %>% 
+            type = "scatter", mode = "lines+markers", inherit = FALSE,
+            name = "with counterrucking",
+            line = list(color = "black"),
+            marker = list(symbol = "diamond", size = 8, color = "white",
+                          line = list(width = 1, color = "black"))),
+nrows = 1, margin = 0.05, shareY = TRUE) %>% 
   layout(title = "<b>Simulated Recycle Speed",
          xaxis = list(title = "Players Committed",
+                      ticks = "outside", tickcolor = "rgb(255,255,255)",
+                      gridcolor = "rgb(255,255,255)"),
+         xaxis2 = list(title = "Players Committed",
                       ticks = "outside", tickcolor = "rgb(255,255,255)",
                       gridcolor = "rgb(255,255,255)"),
          yaxis = list(title = "Recyle Speed in Seconds",
