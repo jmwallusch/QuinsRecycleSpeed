@@ -142,3 +142,35 @@ plot_ly(x = c("Counter-Rucking", "Pass", "Protection", "Time", "Zone"),
          paper_bgcolor = "rgb(222,222,222)", 
          plot_bgcolor = "rgb(229,229,229)",
          margin = list(b = 100, t = 100, l = 150, r = 150, pad = 1))
+#--------------------------------------------------------------------------------------------------------------------
+# BART: SIMULATIONS
+HAR_sim <- data.frame(
+  Time = rep(55, 8),                                       # ruck in the 55. minute
+  Zone = rep(5,8),                                         # ruck in the Opp10-22 zone
+  Prot = rep(seq(1,4),2),                                  # attacking players committed
+  CNTR = c(                                                # counterrucking dummy
+    rep(0, 4),
+    rep(1, 4)
+  ),
+  PASS = rep(2, 8)
+)
+HAR_exp <- cbind(HAR_sim,                                  # perform simulations
+                 pred = round(predict(QRS_bMod,
+                                      HAR_sim), 2)
+)
+plot_ly(x = HAR_exp[1:4,3],
+        y = HAR_exp[1:4,6],
+        type = "scatter", mode = "lines+markers", name = "no counterrucking") %>% 
+  add_trace(x = HAR_exp[5:8,3],
+            y = HAR_exp[5:8,6],
+            type = "scatter", mode = "lines+markers", name = "with counterrucking") %>% 
+  layout(title = "<b>Simulated Recycle Speed",
+         xaxis = list(title = "Players Committed",
+                      ticks = "outside", tickcolor = "rgb(255,255,255)",
+                      gridcolor = "rgb(255,255,255)"),
+         yaxis = list(title = "Recyle Speed in Seconds",
+                      ticks = "outside", tickcolor = "rgb(255,255,255)",
+                      gridcolor = "rgb(255,255,255)"),
+         paper_bgcolor = "rgb(222,222,222)", 
+         plot_bgcolor = "rgb(229,229,229)",
+         margin = list(b = 100, t = 100, l = 150, r = 150, pad = 1))
